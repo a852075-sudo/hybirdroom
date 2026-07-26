@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#4f46e5">
-    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkh5YnJpZCBSb29tIEludGVudGlvbiBTaGlmdCBTeXN0ZW0iLAogICJzaG9ydF9uYW1lIjogIkh5YnJpZFNoaWZ0IiwKICAic3RhcnRfdXJsIjogIi4iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmOGZhcGMiLAogICJ0aGVtZV9jb2xvciIjogIiM0ZjQ2ZTUiCn0=">
+    <link rel="manifest" href="data:application/json;base64,ewogICJuYW1lIjogIkh5YnJpZCBSb29tIEludGVudGlvbiBTaGlmdCBTeXN0ZW0iLAogICJzaG9ydF9uYW1lIjogIkh5YnJpZFNoaWZ0IiwKICAic3RhcnRfdXJsIjogIi4iLAogICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLAogICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmOGZhcGMiLAogICJ0aGVtZV9xvcmkiOiM0ZjQ6ZTUiCn0=">
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -206,7 +206,6 @@
         </footer>
     </div>
 
-    
     <!-- 1. LOGIN MODAL -->
     <div id="modal-login" class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 flex items-center justify-center p-4 transition-opacity duration-200">
         <div class="bg-white rounded-3xl shadow-2xl max-w-sm w-full p-6 border border-slate-100 transform transition-all scale-100">
@@ -261,12 +260,6 @@
                 <button onclick="loginAsGuest()" class="w-full py-3 bg-slate-800 hover:bg-slate-900 text-white font-bold rounded-xl shadow-md text-sm transition active:scale-[0.98] flex items-center justify-center space-x-2">
                     <span>以訪客進入預覽</span>
                     <i class="fa-solid fa-arrow-right text-xs"></i>
-                </button>
-            </div>
-            
-            <div class="mt-4 pt-3 border-t border-slate-100 text-center">
-                <button onclick="dismissLoginModal()" class="text-xs text-slate-400 hover:text-slate-600 transition">
-                    暫不登入，直接進入頁面
                 </button>
             </div>
         </div>
